@@ -406,8 +406,18 @@ a {
     background: #2E2100;
 }
 
+.feedback-list {
+    display: flex;
+    overflow: hidden;
+}
+
 .feedback-item {
     display: flex;
+    width: 100%;
+    flex-shrink: 0;
+    /* sp trượt */
+    /* transition: all ease .3s;
+    transform: translateX(-100%); */
 }
 
 .feedback-item .avatar {
